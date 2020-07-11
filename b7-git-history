@@ -1,0 +1,72 @@
+    1  clear
+    2  sudo su -
+    3  clear
+    4  mkdir batch7
+    5  cd batch7/
+    6  ls -lart
+    7  clear
+    8  git
+    9  clear
+   10  git status
+   11  git init .
+   12  git status
+   13  echo from-nginx > Dockerfile
+   14  cat Dockerfile
+   15  ls -lart
+   16  git status
+   17  git add Dockerfile 
+   18  git status
+   19  git commit -m 'add index.html'
+   20  git config --global user.email "cubensquarets@gmail.com"
+   21  git config --global user.name "cubensquare"
+   22  git commit -m 'add index.html'
+   23  git push -u origin master
+   24  git commit -m 'add index.html'
+   25  git ls-files
+   26  git remote add origin https://github.com/cubensquare/b7.git
+   27  git push -u origin master
+   28  clear
+   29  echo script > script.sh
+   30  ls -lart
+   31  git branch -a
+   32  git pull
+   33  git branch -a
+   34  git branch prod
+   35  git branch -a
+   36  git checkout prod
+   37  git branch -a
+   38  git add script.sh 
+   39  git commit -m 'update script'
+   40  git remote -v
+   41  git push origin prod
+   42  git
+   43  clear
+   44  git remote add dinesh https://github.com/dinesuji/Docker-Project
+   45  git remote -v
+   46  git push dinesh prod
+   47  git branch -a
+   48  ls -lart
+   49  cd ../
+   50  clear
+   51  git clone https://github.com/cubensquare/batch8.git
+   52  ls -lart
+   53  cd 
+   54  cd batch8
+   55  ls -lart
+   56  cd ../
+   57  cd batch7
+   58  ls -lart
+   59  git log
+   60  git show cb5c5ad2fc01df19b4d469a268488b069be01f8d
+   61  git fetch
+   62  git pull
+   63  git pull master
+   64  git branch -a
+   65  git pull prod
+   66  git status
+   67  git remote -v
+   68  git pull
+   69  git pull origin prod
+   70  hisotyr
+   71  history
+   72  history > b7-git-history
